@@ -1,0 +1,7 @@
+#  Visual Analytics For Machine Learning: A Data Perspective Survey
+This page presents a collection of VIS4ML papers for our survey paper "Visual Analytics For Machine Learning: A Data Perspective Survey". 
+
+### Abstract
+The past decade has witnessed a plethora of works that leverage the power of visualization (VIS) to interpret machine learning (ML) models. The corresponding research topic, VIS4ML, keeps growing at a fast pace. To better organize the enormous works and shed light on the developing trend of VIS4ML, we provide a systematic review of these works through this survey. Since data quality greatly impacts the performance of ML models, our survey focuses specifically on summarizing VIS4ML works from the data perspective. First, we categorize the common data handled by ML models into five types, explain the unique features of each type, and highlight the corresponding ML models that are good at learning from them. Second, from the large number of VIS4ML works, we tease out six tasks that operate on these types of data (i.e., data-centric tasks) at different stages of the ML pipeline to understand, diagnose, and refine ML models. Lastly, by studying the distribution of 133 surveyed papers across the five data types, six data-centric tasks, and their intersections, we analyze the prospective research directions and envision future research trends.
+
+###### This page is created using SurVis: https://github.com/fabian-beck/survis
