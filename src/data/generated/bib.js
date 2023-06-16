@@ -49,11 +49,14 @@
         "doi": "10.1109/TVCG.2022.3209425",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:General ML,data:MD-Array,task:Present,task:Explore,task:Assess",
+        "number": "1",
+        "pages": "320--330",
         "publisher": "IEEE",
         "series": "VIS",
         "title": "DendroMap: Visual Exploration of Large-Scale Image Datasets for Machine Learning with Treemaps",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9904448",
+        "volume": "29",
         "year": "2022"
     },
     "bilal2017convolutional": {
@@ -73,12 +76,17 @@
         "year": "2017"
     },
     "bodria2022explaining": {
+        "abstract": "Autoencoders are a powerful yet opaque feature reduction technique, on top of which we propose a novel way for the joint visual exploration of both latent and real space. By interactively exploiting the mapping between latent and real features, it is possible to unveil the meaning of latent features while providing deeper insight into the original variables. To achieve this goal, we exploit and re-adapt existing approaches from eXplainable Artificial Intelligence (XAI) to understand the relationships between the input and latent features. The uncovered relationships between input features and latent ones allow the user to understand the data structure concerning external variables such as the predictions of a classification model. We developed an interactive framework that visually explores the latent space and allows the user to understand the relationships of the input features with model prediction.",
         "author": "Bodria, Francesco and Rinzivillo, Salvatore and Fadda, Daniele and Guidotti, Riccardo and Giannotti, Fosca and Pedreschi, Dino",
+        "booktitle": "EuroVis 2022 - Short Papers",
+        "doi": "10.2312/evs.20221098",
         "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Generate",
+        "pages": "85--89",
         "publisher": "The Eurographics Association",
         "series": "EuroVis Short",
         "title": "Explaining Black Box with visual exploration of Latent Space",
-        "type": "article",
+        "type": "inproceedings",
+        "url": "https://diglib.eg.org/handle/10.2312/evs20221098",
         "year": "2022"
     },
     "cabrera2019fairvis": {
@@ -126,6 +134,38 @@
         "volume": "38",
         "year": "2018"
     },
+    "cavallo2018clustrophile": {
+        "abstract": "Data clustering is a common unsupervised learning method frequently used in exploratory data analysis. However, identifying relevant structures in unlabeled, high-dimensional data is nontrivial, requiring iterative experimentation with clustering parameters as well as data features and instances. The number of possible clusterings for a typical dataset is vast, and navigating in this vast space is also challenging. The absence of ground-truth labels makes it impossible to define an optimal solution, thus requiring user judgment to establish what can be considered a satisfiable clustering result. Data scientists need adequate interactive tools to effectively explore and navigate the large clustering space so as to improve the effectiveness of exploratory clustering analysis. We introduce Clustrophile 2 , a new interactive tool for guided clustering analysis. Clustrophile 2 guides users in clustering-based exploratory analysis, adapts user feedback to improve user guidance, facilitates the interpretation of clusters, and helps quickly reason about differences between clusterings. To this end, Clustrophile 2 contributes a novel feature, the Clustering Tour, to help users choose clustering parameters and assess the quality of different clustering results in relation to current analysis goals and user expectations. We evaluate Clustrophile 2 through a user study with 12 data scientists, who used our tool to explore and interpret sub-cohorts in a dataset of Parkinson's disease patients. Results suggest that Clustrophile 2 improves the speed and effectiveness of exploratory clustering analysis for both experts and non-experts.",
+        "author": "Cavallo, Marco and Demiralp, {\\c{C}}a{\\u{g}}atay",
+        "doi": "10.1109/TVCG.2018.2864477",
+        "journal": "IEEE transactions on visualization and computer graphics",
+        "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Assess",
+        "number": "1",
+        "pages": "267--276",
+        "publisher": "IEEE",
+        "series": "VIS",
+        "title": "Clustrophile 2: Guided visual clustering analysis",
+        "type": "article",
+        "url": "https://ieeexplore.ieee.org/abstract/document/8440035",
+        "volume": "25",
+        "year": "2018"
+    },
+    "chatzimparmpas2020t": {
+        "abstract": "t-Distributed Stochastic Neighbor Embedding (t-SNE) for the visualization of multidimensional data has proven to be a popular approach, with successful applications in a wide range of domains. Despite their usefulness, t-SNE projections can be hard to interpret or even misleading, which hurts the trustworthiness of the results. Understanding the details of t-SNE itself and the reasons behind specific patterns in its output may be a daunting task, especially for non-experts in dimensionality reduction. In this article, we present t-viSNE, an interactive tool for the visual exploration of t-SNE projections that enables analysts to inspect different aspects of their accuracy and meaning, such as the effects of hyper-parameters, distance and neighborhood preservation, densities and costs of specific neighborhoods, and the correlations between dimensions and visual patterns. We propose a coherent, accessible, and well-integrated collection of different views for the visualization of t-SNE projections. The applicability and usability of t-viSNE are demonstrated through hypothetical usage scenarios with real data sets. Finally, we present the results of a user study where the tool's effectiveness was evaluated. By bringing to light information that would normally be lost after running t-SNE, we hope to support analysts in using t-SNE and making its results better understandable.",
+        "author": "Chatzimparmpas, Angelos and Martins, Rafael M and Kerren, Andreas",
+        "doi": "10.1109/TVCG.2020.2986996",
+        "journal": "IEEE transactions on visualization and computer graphics",
+        "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Assess",
+        "number": "8",
+        "pages": "2696--2714",
+        "publisher": "IEEE",
+        "series": "TVCG",
+        "title": "t-visne: Interactive assessment and interpretation of t-sne projections",
+        "type": "article",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9064929",
+        "volume": "26",
+        "year": "2020"
+    },
     "chatzimparmpas2022featureenvi": {
         "abstract": "The machine learning (ML) life cycle involves a series of iterative steps, from the effective gathering and preparation of the data\u2014including complex feature engineering processes\u2014to the presentation and improvement of results, with various algorithms to choose from in every step. Feature engineering in particular can be very beneficial for ML, leading to numerous improvements such as boosting the predictive results, decreasing computational times, reducing excessive noise, and increasing the transparency behind the decisions taken during the training. Despite that, while several visual analytics tools exist to monitor and control the different stages of the ML life cycle (especially those related to data and algorithms), feature engineering support remains inadequate. In this paper, we present FeatureEnVi, a visual analytics system specifically designed to assist with the feature engineering process. Our proposed system helps users to choose the most important feature, to transform the original features into powerful alternatives, and to experiment with different feature generation combinations. Additionally, data space slicing allows users to explore the impact of features on both local and global scales. FeatureEnVi utilizes multiple automatic feature selection techniques; furthermore, it visually guides users with statistical evidence about the influence of each feature (or subsets of features). The final outcome is the extraction of heavily engineered features, evaluated by multiple validation metrics. The usefulness and applicability of FeatureEnVi are demonstrated with two use cases and a case study. We also report feedback from interviews with two ML experts and a visualization researcher who assessed the effectiveness of our system.",
         "author": "Chatzimparmpas, Angelos and Martins, Rafael M and Kucher, Kostiantyn and Kerren, Andreas",
@@ -170,7 +210,7 @@
         "type": "article",
         "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp",
         "volume": "27",
-        "year": "2020"
+        "year": "2021"
     },
     "chen2021interactive": {
         "abstract": "Semi-supervised learning (SSL) provides a way to improve the performance of prediction models (e.g., classifier) via the usage of unlabeled samples. An effective and widely used method is to construct a graph that describes the relationship between labeled and unlabeled samples. Practical experience indicates that graph quality significantly affects the model performance. In this paper, we present a visual analysis method that interactively constructs a high-quality graph for better model performance. In particular, we propose an interactive graph construction method based on the large margin principle. We have developed a river visualization and a hybrid visualization that combines a scatterplot, a node-link diagram, and a bar chart to convey the label propagation of graph-based SSL. Based on the understanding of the propagation, a user can select regions of interest to inspect and modify the graph. We conducted two case studies to showcase how our method facilitates the exploitation of labeled and unlabeled samples for improving model performance.",
@@ -202,7 +242,7 @@
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9664269",
         "volume": "28",
-        "year": "2021"
+        "year": "2022"
     },
     "cheng2020dece": {
         "abstract": "With machine learning models being increasingly applied to various decision-making scenarios, people have spent growing efforts to make machine learning models more transparent and explainable. Among various explanation techniques, counterfactual explanations have the advantages of being human-friendly and actionable-a counterfactual explanation tells the user how to gain the desired prediction with minimal changes to the input. Besides, counterfactual explanations can also serve as efficient probes to the models' decisions. In this work, we exploit the potential of counterfactual explanations to understand and explore the behavior of machine learning models. We design DECE, an interactive visualization system that helps understand and explore a model's decisions on individual instances and data subsets, supporting users ranging from decision-subjects to model developers. DECE supports exploratory analysis of model decisions by combining the strengths of counterfactual explanations at instance- and subgroup-levels. We also introduce a set of interactions that enable users to customize the generation of counterfactual explanations to find more actionable ones that can suit their needs. Through three use cases and an expert interview, we demonstrate the effectiveness of DECE in supporting decision exploration tasks and instance explanations.",
@@ -255,12 +295,15 @@
         "doi": "10.1109/TVCG.2022.3146806",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Assess",
+        "number": "6",
+        "pages": "2996--2996",
         "publisher": "IEEE",
         "series": "TVCG",
         "title": "StrategyAtlas: Strategy Analysis for Machine Learning Interpretability",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9695246",
-        "year": "2022"
+        "volume": "29",
+        "year": "2023"
     },
     "das2019beames": {
         "abstract": "Interactive model steering helps people incrementally build machine learning models that are tailored to their domain and task. Existing visual analytic tools allow people to steer a single model (e.g., assignment attribute weights used by a dimension reduction model). However, the choice of model is critical in such situations. What if the model chosen is suboptimal for the task, dataset, or question being asked? What if instead of parameterizing and steering this model, a different model provides a better fit? This paper presents a technique to allow users to inspect and steer multiple machine learning models. The technique steers and samples models from a broader set of learning algorithms and model types. We incorporate this technique into a visual analytic prototype, BEAMES, that allows users to perform regression tasks via multimodel steering. This paper demonstrates the effectiveness of BEAMES via a use case, and discusses broader implications for multimodel steering.",
@@ -302,7 +345,7 @@
         "title": "EBBE-Text: Explaining Neural Networks by Exploring Text Classification Decision Boundaries",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9801527",
-        "year": "2022"
+        "year": "2023"
     },
     "derose2020attention": {
         "abstract": "Advances in language modeling have led to the development of deep attention-based models that are performant across a wide variety of natural language processing (NLP) problems. These language models are typified by a pre-training process on large unlabeled text corpora and subsequently fine-tuned for specific tasks. Although considerable work has been devoted to understanding the attention mechanisms of pre-trained models, it is less understood how a model's attention mechanisms change when trained for a target NLP task. In this paper, we propose a visual analytics approach to understanding fine-tuning in attention-based language models. Our visualization, Attention Flows, is designed to support users in querying, tracing, and comparing attention within layers, across layers, and amongst attention heads in Transformer-based language models. To help users gain insight on how a classification decision is made, our design is centered on depicting classification-based attention at the deepest layer and how attention from prior layers flows throughout words in the input. Attention Flows supports the analysis of a single model, as well as the visual comparison between pre-trained and fine-tuned models via their similarities and differences. We use Attention Flows to study attention mechanisms in various sentence understanding tasks and highlight how attention evolves to address the nuances of solving these tasks.",
@@ -385,11 +428,14 @@
         "doi": "10.1109/TVCG.2022.3209484",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Assess,task:Generate",
+        "number": "1",
+        "pages": "473--482",
         "publisher": "IEEE",
         "series": "VIS",
         "title": "D-BIAS: A Causality-Based Human-in-the-Loop System for Tackling Algorithmic Bias",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9903601",
+        "volume": "29",
         "year": "2022"
     },
     "gleicher2020boxer": {
@@ -496,7 +542,7 @@
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9301222",
         "volume": "28",
-        "year": "2020"
+        "year": "2022"
     },
     "hinterreiter2020confusionflow": {
         "abstract": "Classifiers are among the most widely used supervised machine learning algorithms. Many classification models exist, and choosing the right one for a given task is difficult. During model selection and debugging, data scientists need to assess classifiers' performances, evaluate their learning behavior over time, and compare different models. Typically, this analysis is based on single-number performance measures such as accuracy. A more detailed evaluation of classifiers is possible by inspecting class errors. The confusion matrix is an established way for visualizing these class errors, but it was not designed with temporal or comparative analysis in mind. More generally, established performance analysis systems do not allow a combined temporal and comparative analysis of class-level information. To address this issue, we propose ConfusionFlow, an interactive, comparative visualization tool that combines the benefits of class confusion matrices with the visualization of performance characteristics over time. ConfusionFlow is model-agnostic and can be used to compare performances for different model types, model architectures, and/or training and test datasets. We demonstrate the usefulness of ConfusionFlow in a case study on instance selection strategies in active learning. We further assess the scalability of ConfusionFlow and present a use case in the context of neural network pruning.",
@@ -512,7 +558,7 @@
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9149790",
         "volume": "28",
-        "year": "2020"
+        "year": "2022"
     },
     "hohman2019s": {
         "abstract": "Deep learning is increasingly used in decision-making tasks. However, understanding how neural networks produce final predictions remains a fundamental challenge. Existing work on interpreting neural network predictions for images often focuses on explaining predictions for single images or neurons. As predictions are often computed from millions of weights that are optimized over millions of images, such explanations can easily miss a bigger picture. We present Summit, an interactive system that scalably and systematically summarizes and visualizes what features a deep learning model has learned and how those features interact to make predictions. Summit introduces two new scalable summarization techniques: (1) activation aggregation discovers important neurons, and (2) neuron-influence aggregation identifies relationships among such neurons. Summit combines these techniques to create the novel attribution graph that reveals and summarizes crucial neuron associations and substructures that contribute to a model's outcomes. Summit scales to large data, such as the ImageNet dataset with 1.2M images, and leverages neural network feature visualization and dataset examples to help users distill large, complex neural network models into compact, interactive visualizations. We present neural network exploration scenarios where Summit helps us discover multiple surprising insights into a prevalent, large-scale image classifier's learned representations and informs future neural network architecture design. The Summit visualization runs in modern web browsers and is open-sourced.",
@@ -558,7 +604,7 @@
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9507307",
         "volume": "28",
-        "year": "2021"
+        "year": "2022"
     },
     "hoque2022visual": {
         "abstract": "Data-centric AI has emerged as a new research area to systematically engineer the data to land AI models for real-world applications. As a core method for data-centric AI, data programming helps experts inject domain knowledge into data and label data at scale using carefully designed labeling functions (e.g., heuristic rules, logistics) . Though data programming has shown great success in the NLP domain, it is challenging to program image data because of a) the challenge to describe images using visual vocabulary without human annotations and b) lacking efficient tools for data programming of images. We present Visual Concept Programming, a first-of-its-kind visual analytics approach of using visual concepts to program image data at scale while requiring a few human efforts. Our approach is built upon three unique components. It first uses a self-supervised learning approach to learn visual representation at the pixel level and extract a dictionary of visual concepts from images without using any human annotations. The visual concepts serve as building blocks of labeling functions for experts to inject their domain knowledge. We then design interactive visualizations to explore and understand visual concepts and compose labeling functions with concepts without writing code . Finally, with the composed labeling functions, users can label the image data at scale and use the labeled data to refine the pixel-wise visual representation and concept quality. We evaluate the learned pixel-wise visual representation for the downstream task of semantic segmentation to show the effectiveness and usefulness of our approach. In addition, we demonstrate how our approach tackles real-world problems of image retrieval for autonomous driving.",
@@ -566,11 +612,14 @@
         "doi": "10.1109/TVCG.2022.3209466",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:DL,data:MD-Array,task:Present,task:Explore,task:Improve",
+        "number": "1",
+        "pages": "74--83",
         "publisher": "IEEE",
         "series": "VIS",
         "title": "Visual Concept Programming: A Visual Analytics Approach to Injecting Human Intelligence At Scale",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9904017",
+        "volume": "29",
         "year": "2022"
     },
     "huang2020interactive": {
@@ -611,10 +660,13 @@
         "doi": "10.1109/TVCG.2022.3209384",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:DL,data:MD-Array,task:Present,task:Explore,task:Compare,task:Assess",
+        "number": "1",
+        "pages": "831--841",
         "series": "VIS",
         "title": "ConceptExplainer: Understanding the Mental Model of Deep Learning Algorithms via Interactive Concept-based Explanations",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/document/9903285",
+        "volume": "29",
         "year": "2022"
     },
     "jaunet2020drlviz": {
@@ -702,12 +754,15 @@
         "doi": "10.1109/TVCG.2022.3148107",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:DL,data:Graph,task:Present,task:Explore,task:Compare,task:Assess",
+        "number": "6",
+        "pages": "3024--3038",
         "publisher": "IEEE",
         "series": "TVCG",
         "title": "Gnnlens: A visual analytics approach for prediction error diagnosis of graph neural networks",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9705076",
-        "year": "2022"
+        "volume": "29",
+        "year": "2023"
     },
     "jin2022visual": {
         "abstract": "With deep learning (DL) outperforming conventional methods for different tasks, much effort has been devoted to utilizing DL in various domains. Researchers and developers in the traffic domain have also designed and improved DL models for forecasting tasks such as estimation of traffic speed and time of arrival. However, there exist many challenges in analyzing DL models due to the black-box property of DL models and complexity of traffic data (i.e., spatio-temporal dependencies). Collaborating with domain experts, we design a visual analytics system, AttnAnalyzer, that enables users to explore how DL models make predictions by allowing effective spatio-temporal dependency analysis. The system incorporates dynamic time warping (DTW) and Granger causality tests for computational spatio-temporal dependency analysis while providing map, table, line chart, and pixel views to assist user to perform dependency and model behavior analysis. For the evaluation, we present three case studies showing how AttnAnalyzer can effectively explore model behaviors and improve model performance in two different road networks. We also provide domain expert feedback.",
@@ -715,11 +770,14 @@
         "doi": "10.1109/TVCG.2022.3209462",
         "journal": "IEEE transactions on visualization and computer graphics",
         "keywords": "type:DL,data:Sequence,data:Graph,data:Hybrid,task:Present,task:Explore,task:Assess",
+        "number": "1",
+        "pages": "1102--1112",
         "publisher": "IEEE",
         "series": "VIS",
         "title": "A visual analytics system for improving attention-based traffic forecasting models",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9903281",
+        "volume": "29",
         "year": "2022"
     },
     "kahng2017cti": {
@@ -784,6 +842,22 @@
         "url": "https://arxiv.org/pdf/1705.01968.pdf",
         "year": "2017"
     },
+    "kwon2017clustervision": {
+        "abstract": "Clustering, the process of grouping together similar items into distinct partitions, is a common type of unsupervised machine learning that can be useful for summarizing and aggregating complex multi-dimensional data. However, data can be clustered in many ways, and there exist a large body of algorithms designed to reveal different patterns. While having access to a wide variety of algorithms is helpful, in practice, it is quite difficult for data scientists to choose and parameterize algorithms to get the clustering results relevant for their dataset and analytical tasks. To alleviate this problem, we built Clustervision, a visual analytics tool that helps ensure data scientists find the right clustering among the large amount of techniques and parameters available. Our system clusters data using a variety of clustering techniques and parameters and then ranks clustering results utilizing five quality metrics. In addition, users can guide the system to produce more relevant results by providing task-relevant constraints on the data. Our visual user interface allows users to find high quality clustering results, explore the clusters using several coordinated visualization techniques, and select the cluster result that best suits their task. We demonstrate this novel approach using a case study with a team of researchers in the medical domain and showcase that our system empowers users to choose an effective representation of their complex data.",
+        "author": "Kwon, Bum Chul and Eysenbach, Ben and Verma, Janu and Ng, Kenney and De Filippi, Christopher and Stewart, Walter F and Perer, Adam",
+        "doi": "10.1109/TVCG.2017.2745085",
+        "journal": "IEEE transactions on visualization and computer graphics",
+        "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Assess",
+        "number": "1",
+        "pages": "142--151",
+        "publisher": "IEEE",
+        "series": "VIS",
+        "title": "Clustervision: Visual supervision of unsupervised clustering",
+        "type": "article",
+        "url": "https://ieeexplore.ieee.org/abstract/document/8019866",
+        "volume": "24",
+        "year": "2017"
+    },
     "kwon2018retainvis": {
         "abstract": "We have recently seen many successful applications of recurrent neural networks (RNNs) on electronic medical records (EMRs), which contain histories of patients' diagnoses, medications, and other various events, in order to predict the current and future states of patients. Despite the strong performance of RNNs, it is often challenging for users to understand why the model makes a particular prediction. Such black-box nature of RNNs can impede its wide adoption in clinical practice. Furthermore, we have no established methods to interactively leverage users' domain expertise and prior knowledge as inputs for steering the model. Therefore, our design study aims to provide a visual analytics solution to increase interpretability and interactivity of RNNs via a joint effort of medical experts, artificial intelligence scientists, and visual analytics researchers. Following the iterative design process between the experts, we design, implement, and evaluate a visual analytics tool called RetainVis, which couples a newly improved, interpretable, and interactive RNN-based model called RetainEX and visualizations for users' exploration of EMR data in the context of prediction tasks. Our study shows the effective use of RetainVis for gaining insights into how individual medical codes contribute to making risk predictions, using EMRs of patients with heart failure and cataract symptoms. Our study also demonstrates how we made substantial changes to the state-of-the-art RNN model called RETAIN in order to make use of temporal information and increase interactivity. This study will provide a useful guideline for researchers that aim to design an interpretable and interactive visual analytics tool for RNNs.",
         "author": "Kwon, Bum Chul and Choi, Min-Je and Kim, Joanne Taery and Choi, Edward and Kim, Young Bin and Kwon, Soonwook and Sun, Jimeng and Choo, Jaegul",
@@ -801,22 +875,31 @@
         "year": "2018"
     },
     "kwon2022dash": {
+        "abstract": "Image classification models often learn to predict a class based on irrelevant co-occurrences between input features and an output class in training data. We call the unwanted correlations ''data biases,'' and the visual features causing data biases ''bias factors.'' It is challenging to identify and mitigate biases automatically without human intervention. Therefore, we conducted a design study to find a human-in-the-loop solution. First, we identified user tasks that capture the bias mitigation process for image classification models with three experts. Then, to support the tasks, we developed a visual analytics system called DASH that allows users to visually identify bias factors, to iteratively generate synthetic images using a state-of-the-art image-toimage translation model, and to supervise the model training process for improving the classification accuracy. Our quantitative evaluation and qualitative study with ten participants demonstrate the usefulness of DASH and provide lessons for future work.",
         "author": "Kwon, Bum Chul and Lee, Jungsoo and Chung, Chaeyeon and Lee, Nyoungwoo and Choi, Ho-Jin and Choo, Jaegul",
-        "journal": "arXiv preprint arXiv:2209.06357",
+        "booktitle": "EuroVis 2022 - Short Papers",
+        "doi": "10.2312/evs.20221099",
         "keywords": "type:DL,data:MD-Array,task:Present,task:Explore,task:Assess,task:Generate",
+        "pages": "91--95",
+        "publisher": "The Eurographics Association",
         "series": "EuroVis Short",
         "title": "DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation",
-        "type": "article",
+        "type": "inproceedings",
+        "url": "https://diglib.eg.org/handle/10.2312/evs20221099",
         "year": "2022"
     },
     "kwon2022rmexplorer": {
         "abstract": "Disease risk models can identify high-risk patients and help clinicians provide more personalized care. However, risk models developed on one dataset may not generalize across diverse subpopulations of patients in different datasets and may have unexpected performance. It is challenging for clinical researchers to inspect risk models across different subgroups without any tools. Therefore, we developed an interactive visualization system called RMExplorer (Risk Model Explorer) to enable interactive risk model assessment. Specifically, the system allows users to define subgroups of patients by selecting clinical, demographic, or other characteristics, to explore the performance and fairness of risk models on the subgroups, and to understand the feature contributions to risk scores. To demonstrate the usefulness of the tool, we conduct a case study, where we use RMExplorer to explore three atrial fibrillation risk models by applying them to the UK Biobank dataset of 445,329 individuals. RMExplorer can help researchers to evaluate the performance and biases of risk models on subpopulations of interest in their data.",
         "author": "Kwon, Bum Chul and Kartoun, Uri and Khurshid, Shaan and Yurochkin, Mikhail and Maity, Subha and Brockman, Deanna G and Khera, Amit V and Ellinor, Patrick T and Lubitz, Steven A and Ng, Kenney",
-        "journal": "arXiv preprint arXiv:2209.06378",
+        "booktitle": "2022 IEEE Visualization and Visual Analytics (VIS)",
+        "doi": "10.1109/VIS54862.2022.00019",
         "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Assess",
+        "organization": "IEEE",
+        "pages": "50--54",
         "series": "VIS Short",
         "title": "RMExplorer: A Visual Analytics Approach to Explore the Performance and the Fairness of Disease Risk Models on Population Subgroups",
-        "type": "article",
+        "type": "inproceedings",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9973226",
         "year": "2022"
     },
     "lee2022visualization": {
@@ -1049,7 +1132,7 @@
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9146191",
         "volume": "27",
-        "year": "2020"
+        "year": "2021"
     },
     "meng2022modelwise": {
         "abstract": "Model comparison is an important process to facilitate model diagnosis, improvement, and selection when multiple models are developed for a classification task. It involves careful comparison concerning model performance and interpretation. Current visual analytics solutions often ignore the feature selection process. They either do not support detailed analysis of multiple multi-class classifiers or rely on feature analysis alone to interpret model results. Understanding how different models make classification decisions, especially classification disagreements of the same instances, requires a deeper model understanding. We present ModelWise, a visual analytics method to compare multiple multi-class classifiers in terms of model performance, feature space, and model explanation. ModelWise adapts visualizations with rich interactions to support multiple workflows to achieve model diagnosis, improvement, and selection. It considers feature subspaces generated for use in different models and improves model understanding by model explanation. We demonstrate the usability of ModelWise with two case studies, one with a small exemplar dataset and another developed with a machine learning expert with real-world perioperative data.",
@@ -1128,13 +1211,17 @@
         "year": "2022"
     },
     "munechika2022visual": {
-        "abstract": "As machine learning (ML) systems become increasingly widespread, it is necessary to audit these systems for biases prior to their deployment. Recent research has developed algorithms for effectively identifying intersectional bias in the form of interpretable, underperforming subsets (or slices) of the data. However, these solutions and their insights are limited without a tool for visually understanding and interacting with the results of these algorithms. We propose Visual Auditor, an interactive visualization tool for auditing and summarizing model biases. Visual Auditor assists model validation by providing an interpretable overview of intersectional bias (bias that is present when examining populations defined by multiple features), details about relationships between problematic data slices, and a comparison between underperforming and overperforming data slices in a model. Our open-source tool runs directly in both computational notebooks and web browsers, making model auditing accessible and easily integrated into current ML development workflows. An observational user study in collaboration with domain experts at Fiddler AI highlights that our tool can help ML practitioners identify and understand model biases.",
+        "abstract": "As machine learning (ML) systems become increasingly widespread, it is necessary to audit these systems for biases prior to their de-ployment. Recent research has developed algorithms for effectively identifying intersectional bias in the form of interpretable, underper-forming subsets (or slices) of the data. However, these solutions and their insights are limited without a tool for visually understanding and interacting with the results of these algorithms. We propose Visual Auditor, an interactive visualization tool for auditing and summarizing model biases. Visual Auditor assists model validation by providing an interpretable overview of intersectional bias (bias that is present when examining populations defined by multiple features), details about relationships between problematic data slices, and a comparison between underperforming and overper-forming data slices in a model. Our open-source tool runs directly in both computational notebooks and web browsers, making model auditing accessible and easily integrated into current ML development workflows. An observational user study in collaboration with domain experts at Fiddler AI highlights that our tool can help ML practitioners identify and understand model biases.",
         "author": "Munechika, David and Wang, Zijie J and Reidy, Jack and Rubin, Josh and Gade, Krishna and Kenthapadi, Krishnaram and Chau, Duen Horng",
-        "journal": "arXiv preprint arXiv:2206.12540",
+        "booktitle": "2022 IEEE Visualization and Visual Analytics (VIS)",
+        "doi": "10.1109/VIS54862.2022.00018",
         "keywords": "type:General ML,data:Tabular,task:Present,task:Assess",
+        "organization": "IEEE",
+        "pages": "45--49",
         "series": "VIS Short",
         "title": "Visual Auditor: Interactive Visualization for Detection and Summarization of Model Biases",
-        "type": "article",
+        "type": "inproceedings",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9973204",
         "year": "2022"
     },
     "murugesan2019deepcompare": {
@@ -1189,11 +1276,14 @@
         "doi": "10.1109/MCG.2022.3201465",
         "journal": "IEEE Computer Graphics and Applications",
         "keywords": "type:DL,data:Sequence,data:MD-Array,data:Hybrid,task:Present,task:Explore,task:Compare,task:Assess",
+        "number": "6",
+        "pages": "37--46",
         "publisher": "IEEE",
         "series": "CG\\&A",
         "title": "Detoxer: a visual debugging tool with multi-scope explanations for temporal multi-label classification",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9866547",
+        "volume": "42",
         "year": "2022"
     },
     "park2019comdia": {
@@ -1283,6 +1373,20 @@
         "url": "https://arxiv.org/pdf/2007.11353.pdf",
         "year": "2020"
     },
+    "puri2020rankbooster": {
+        "abstract": "Ranking is a natural and ubiquitous way to facilitate decision-making in various applications. However, different rankings are often used for the same set of entities, with each ranking method placing emphasis on different factors. These factors can also be multi-dimensional in nature, compounding the problem. This complexity can make it challenging for an entity which is being ranked to understand what they can do to improve their rankings, and to analyze the effect of changes in various factors to their overall rank. In this paper, we present RankBooster, a novel visual analytics system to help users conveniently investigate ranking predictions.We take university rankings as an example and focus on helping universities to better explore their rankings, where they can compare themselves to their rivals in key areas as well as overall. Novel visualizations are proposed to enable efficient analysis of rankings, including a Scenario Analysis View to show a high-level summary of different ranking scenarios, a Relationship View to visualize the influence of each attribute on different indicators and a Rival View to compare the ranking of a university and those of its rivals. A case study demonstrates the usefulness and effectiveness of RankBooster in facilitating the visual analysis of ranking predictions and helping users better understand their current situation.",
+        "author": "Puri, Abishek and Ku, Bon Kyung and Wang, Yong and Qu, Huamin",
+        "doi": "10.2312/evs.20201068",
+        "journal": "Proceedings of EuroVis 2020 Short Papers",
+        "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Assess",
+        "pages": "175--179",
+        "publisher": "The Eurographics Association",
+        "series": "EuroVis (short)",
+        "title": "Rankbooster: Visual analysis of ranking predictions",
+        "type": "article",
+        "url": "https://diglib.eg.org/handle/10.2312/evs20201068",
+        "year": "2020"
+    },
     "rathore2021topoact": {
         "abstract": "Deep neural networks such as GoogLeNet, ResNet, and BERT have achieved impressive performance in tasks such as image and text classification. To understand how such performance is achieved, we probe a trained deep neural network by studying neuron activations, i.e.combinations of neuron firings, at various layers of the network in response to a particular input. With a large number of inputs, we aim to obtain a global view of what neurons detect by studying their activations. In particular, we develop visualizations that show the shape of the activation space, the organizational principle behind neuron activations, and the relationships of these activations within a layer. Applying tools from topological data analysis, we present TopoAct, a visual exploration system to study topological summaries of activation vectors. We present exploration scenarios using TopoAct that provide valuable insights into learned representations of neural networks. We expect TopoAct to give a topological perspective that enriches the current toolbox of neural network analysis, and to provide a basis for network architecture diagnosis and data anomaly detection.",
         "author": "Rathore, Archit and Chalapathi, Nithin and Palande, Sourabh and Wang, Bei",
@@ -1346,6 +1450,20 @@
         "url": "https://www.researchgate.net/profile/Tobias\\_Guenther5/publication/319092627\\_Visualization\\_of\\_Neural\\_Network\\_Predictions\\_for\\_Weather\\_Forecasting/links/5b361a1d4585150d23e1079c/Visualization-of-Neural-Network-Predictions-for-Weather-Forecasting.pdf",
         "volume": "38",
         "year": "2019"
+    },
+    "rojo2020gacovi": {
+        "abstract": "The recent growth of interest in explainable artificial intelligence (XAI) has resulted in a large number of research efforts to provide accountable and transparent machine learning systems. Although a large volume of research has focused on algorithm transparency, there are other factors that influence the interpretability of a system, such as end-users' understanding of individual features and the total number of features. Thus, involving end-users in the feature selection process may be key to achieving interpretability. In addition, previous work has suggested that to obtain satisfactory interpretability and predictive performance, the feature selection process should look for a subset of features that are highly correlated with the response variable yet uncorrelated to each other. Taking this into account, in this paper, we present a work-in-progress design study of a novel system for correlation visualization, GaCoVi. GaCoVi is designed to put domain experts in the loop of feature selection for regression models in scenarios where transparency of the machine learning systems is crucial.",
+        "author": "Rojo, Diego and Htun, Nyi Nyi and Verbert, Katrien and Kerren, Andreas and Garth, Christoph and Marai, G Elisabeta",
+        "doi": "10.2312/evs.20201060",
+        "journal": "Proceedings of EuroVis 2020 Short Papers",
+        "keywords": "type:General ML,data:Tabular,task:Present,task:Assess",
+        "pages": "127--131",
+        "publisher": "The Eurographics Association",
+        "series": "EuroVis (short)",
+        "title": "GaCoVi: A correlation visualization to support interpretability-aware feature selection for regression models",
+        "type": "article",
+        "url": "https://diglib.eg.org/handle/10.2312/evs20201060",
+        "year": "2020"
     },
     "sahoo2020visually": {
         "abstract": "We propose a visual analytics system to help a user analyze and steer zero-shot learning models. Zero-shot learning has emerged as a viable scenario for categorizing data that consists of no labeled examples, and thus a promising approach to minimize data annotation from humans. However, it is challenging to understand where zero-shot learning fails, the cause of such failures, and how a user can modify the model to prevent such failures. Our visualization system is designed to help users diagnose and understand mispredictions in such models, so that they may gain insight on the behavior of a model when applied to data associated with categories not seen during training. Through usage scenarios, we highlight how our system can help a user improve performance in zero-shot learning.",
@@ -1434,6 +1552,22 @@
         "volume": "40",
         "year": "2021"
     },
+    "stahnke2015probing": {
+        "abstract": "We introduce a set of integrated interaction techniques to interpret and interrogate dimensionality-reduced data. Projection techniques generally aim to make a high-dimensional information space visible in form of a planar layout. However, the meaning of the resulting data projections can be hard to grasp. It is seldom clear why elements are placed far apart or close together and the inevitable approximation errors of any projection technique are not exposed to the viewer. Previous research on dimensionality reduction focuses on the efficient generation of data projections, interactive customisation of the model, and comparison of different projection techniques. There has been only little research on how the visualization resulting from data projection is interacted with. We contribute the concept of probing as an integrated approach to interpreting the meaning and quality of visualizations and propose a set of interactive methods to examine dimensionality-reduced data as well as the projection itself. The methods let viewers see approximation errors, question the positioning of elements, compare them to each other, and visualize the influence of data dimensions on the projection space. We created a web-based system implementing these methods, and report on findings from an evaluation with data analysts using the prototype to examine multidimensional datasets.",
+        "author": "Stahnke, Julian and D{\\{o}rk, Marian and M{\\}u}ller, Boris and Thom, Andreas",
+        "doi": "10.1109/TVCG.2015.2467717",
+        "journal": "IEEE transactions on visualization and computer graphics",
+        "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Assess",
+        "number": "1",
+        "pages": "629--638",
+        "publisher": "IEEE",
+        "series": "VIS",
+        "title": "Probing projections: Interaction techniques for interpreting arrangements and errors of dimensionality reductions",
+        "type": "article",
+        "url": "https://ieeexplore.ieee.org/abstract/document/7192695",
+        "volume": "22",
+        "year": "2016"
+    },
     "strobelt2017lstmvis": {
         "abstract": "Recurrent neural networks, and in particular long short-term memory (LSTM) networks, are a remarkably effective tool for sequence modeling that learn a dense black-box hidden representation of their sequential input. Researchers interested in better understanding these models have studied the changes in hidden state representations over time and noticed some interpretable patterns but also significant noise. In this work, we present LSTMVis, a visual analysis tool for recurrent neural networks with a focus on understanding these hidden state dynamics. The tool allows users to select a hypothesis input range to focus on local state changes, to match these states changes to similar patterns in a large data set, and to align these results with structural annotations from their domain. We show several use cases of the tool for analyzing specific hidden state properties on dataset containing nesting, phrase structure, and chord progressions, and demonstrate how the tool can be used to isolate patterns for further statistical analysis. We characterize the domain, the different stakeholders, and their goals and tasks. Long-term usage data after putting the tool online revealed great interest in the machine learning community.",
         "author": "Strobelt, Hendrik and Gehrmann, Sebastian and Pfister, Hanspeter and Rush, Alexander M",
@@ -1488,11 +1622,14 @@
         "doi": "10.1109/TVCG.2022.3209479",
         "journal": "IEEE transactions on visualization and computer graphics",
         "keywords": "type:DL,data:Sequence,task:Present,task:Explore,task:Assess",
+        "number": "1",
+        "pages": "1146--1156",
         "publisher": "IEEE",
         "series": "VIS",
         "title": "Interactive and Visual Prompt Engineering for Ad-hoc Task Adaptation with Large Language Models",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9908590",
+        "volume": "29",
         "year": "2022"
     },
     "tabatabai2021did": {
@@ -1683,11 +1820,14 @@
         "doi": "10.1109/TVCG.2022.3209435",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:DL,data:Graph,task:Present,task:Explore,task:Compare",
+        "number": "1",
+        "pages": "1266--1276",
         "publisher": "IEEE",
         "series": "VIS",
         "title": "Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9916585",
+        "volume": "29",
         "year": "2022"
     },
     "wang2022hetvis": {
@@ -1714,7 +1854,7 @@
         "title": "Learning-From-Disagreement: A Model Comparison and Visual Analytics Framework",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9767606",
-        "year": "2022"
+        "year": "2023"
     },
     "wexler2019if": {
         "abstract": "A key challenge in developing and deploying Machine Learning (ML) systems is understanding their performance across a wide range of inputs. To address this challenge, we created the What-If Tool, an open-source application that allows practitioners to probe, visualize, and analyze ML systems, with minimal coding. The What-If Tool lets practitioners test performance in hypothetical situations, analyze the importance of different data features, and visualize model behavior across multiple models and subsets of input data. It also lets practitioners measure systems according to multiple ML fairness metrics. We describe the design of the tool, and report on real-life usage at different organizations.",
@@ -1738,11 +1878,46 @@
         "doi": "10.1109/TVCG.2022.3209489",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Assess",
+        "number": "1",
+        "pages": "853--863",
         "publisher": "IEEE",
         "series": "VIS",
         "title": "Calibrate: Interactive Analysis of Probabilistic Model Output",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9904444",
+        "volume": "29",
+        "year": "2022"
+    },
+    "xia2021revisiting": {
+        "abstract": "Dimensionality Reduction (DR) techniques can generate 2D projections and enable visual exploration of cluster structures of high-dimensional datasets. However, different DR techniques would yield various patterns, which significantly affect the performance of visual cluster analysis tasks. We present the results of a user study that investigates the influence of different DR techniques on visual cluster analysis. Our study focuses on the most concerned property types, namely the linearity and locality, and evaluates twelve representative DR techniques that cover the concerned properties. Four controlled experiments were conducted to evaluate how the DR techniques facilitate the tasks of 1) cluster identification, 2) membership identification, 3) distance comparison, and 4) density comparison, respectively. We also evaluated users' subjective preference of the DR techniques regarding the quality of projected clusters. The results show that: 1) Non-linear and Local techniques are preferred in cluster identification and membership identification; 2) Linear techniques perform better than non-linear techniques in density comparison; 3) UMAP (Uniform Manifold Approximation and Projection) and t-SNE (t-Distributed Stochastic Neighbor Embedding) perform the best in cluster identification and membership identification; 4) NMF (Nonnegative Matrix Factorization) has competitive performance in distance comparison; 5) t-SNLE (t-Distributed Stochastic Neighbor Linear Embedding) has competitive performance in density comparison.",
+        "author": "Xia, Jiazhi and Zhang, Yuchen and Song, Jie and Chen, Yang and Wang, Yunhai and Liu, Shixia",
+        "doi": "10.1109/TVCG.2021.3114694",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Assess",
+        "number": "1",
+        "pages": "529--539",
+        "publisher": "IEEE",
+        "series": "VIS",
+        "title": "Revisiting dimensionality reduction techniques for visual cluster analysis: an empirical study",
+        "type": "article",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9552226",
+        "volume": "28",
+        "year": "2021"
+    },
+    "xia2022interactive": {
+        "abstract": "We propose a contrastive dimensionality reduction approach (CDR) for interactive visual cluster analysis. Although dimensionality reduction of high-dimensional data is widely used in visual cluster analysis in conjunction with scatterplots, there are several limitations on effective visual cluster analysis. First, it is non-trivial for an embedding to present clear visual cluster separation when keeping neighborhood structures. Second, as cluster analysis is a subjective task, user steering is required. However, it is also non-trivial to enable interactions in dimensionality reduction. To tackle these problems, we introduce contrastive learning into dimensionality reduction for high-quality embedding. We then redefine the gradient of the loss function to the negative pairs to enhance the visual cluster separation of embedding results. Based on the contrastive learning scheme, we employ link-based interactions to steer embeddings. After that, we implement a prototype visual interface that integrates the proposed algorithms and a set of visualizations. Quantitative experiments demonstrate that CDR outperforms existing techniques in terms of preserving correct neighborhood structures and improving visual cluster separation. The ablation experiment demonstrates the effectiveness of gradient redefinition. The user study verifies that CDR outperforms t-SNE and UMAP in the task of cluster identification. We also showcase two use cases on real-world datasets to present the effectiveness of link-based interactions.",
+        "author": "Xia, Jiazhi and Huang, Linquan and Lin, Weixing and Zhao, Xin and Wu, Jing and Chen, Yang and Zhao, Ying and Chen, Wei",
+        "doi": "10.1109/TVCG.2022.3209423",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "keywords": "type:General ML,data:Tabular,data:Sequence,data:MD-Array,task:Present,task:Compare,task:Assess",
+        "number": "1",
+        "pages": "734--744",
+        "publisher": "IEEE",
+        "series": "VIS",
+        "title": "Interactive visual cluster analysis by contrastive dimensionality reduction",
+        "type": "article",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9904480",
+        "volume": "29",
         "year": "2022"
     },
     "xiang2019interactive": {
@@ -1804,6 +1979,22 @@
         "url": "https://arxiv.org/pdf/2007.14372.pdf",
         "year": "2020"
     },
+    "yang2020interactive": {
+        "abstract": "Hierarchical clustering is an important technique to organize big data for exploratory data analysis. However, existing one-size-fits-all hierarchical clustering methods often fail to meet the diverse needs of different users. To address this challenge, we present an interactive steering method to visually supervise constrained hierarchical clustering by utilizing both public knowledge (e.g., Wikipedia) and private knowledge from users. The novelty of our approach includes 1) automatically constructing constraints for hierarchical clustering using knowledge (knowledge-driven) and intrinsic data distribution (data-driven), and 2) enabling the interactive steering of clustering through a visual interface (user-driven). Our method first maps each data item to the most relevant items in a knowledge base. An initial constraint tree is then extracted using the ant colony optimization algorithm. The algorithm balances the tree width and depth and covers the data items with high confidence. Given the constraint tree, the data items are hierarchically clustered using evolutionary Bayesian rose tree. To clearly convey the hierarchical clustering results, an uncertainty-aware tree visualization has been developed to enable users to quickly locate the most uncertain sub-hierarchies and interactively improve them. The quantitative evaluation and case study demonstrate that the proposed approach facilitates the building of customized clustering trees in an efficient and effective manner.",
+        "author": "Yang, Weikai and Wang, Xiting and Lu, Jie and Dou, Wenwen and Liu, Shixia",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/9094378",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "keywords": "type:General ML,data:Sequence,data:Graph,task:Present,task:Explore,task:Assess,task:Improve",
+        "number": "10",
+        "pages": "3953--3967",
+        "publisher": "IEEE",
+        "series": "VIS",
+        "title": "Interactive steering of hierarchical clustering",
+        "type": "article",
+        "url": "10.1109/TVCG.2020.2995100",
+        "volume": "27",
+        "year": "2020"
+    },
     "yang2022diagnosing": {
         "abstract": "The base learners and labeled samples (shots) in an ensemble few-shot classifier greatly affect the model performance. When the performance is not satisfactory, it is usually difficult to understand the underlying causes and make improvements. To tackle this issue, we propose a visual analysis method, FSLDiagnotor. Given a set of base learners and a collection of samples with a few shots, we consider two problems: 1) finding a subset of base learners that well predict the sample collections; and 2) replacing the low-quality shots with more representative ones to adequately represent the sample collections. We formulate both problems as sparse subset selection and develop two selection algorithms to recommend appropriate learners and shots, respectively. A matrix visualization and a scatterplot are combined to explain the recommended learners and shots in context and facilitate users in adjusting them. Based on the adjustment, the algorithm updates the recommendation results for another round of improvement. Two case studies are conducted to demonstrate that FSLDiagnotor helps build a few-shot classifier efficiently and increases the accuracy by 12\\% and 21\\%, respectively.",
         "author": "Yang, Weikai and Ye, Xi and Zhang, Xingxing and Xiao, Lanxi and Xia, Jiazhi and Wang, Zhongyuan and Zhu, Jun and Pfister, Hanspeter and Liu, Shixia",
@@ -1842,11 +2033,14 @@
         "doi": "10.1109/MCG.2022.3199727",
         "journal": "IEEE Computer Graphics and Applications",
         "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare",
+        "number": "6",
+        "pages": "24--36",
         "publisher": "IEEE",
         "series": "CG\\&A",
         "title": "SUBPLEX: A Visual Analytics Approach to Understand Local Model Explanations At the Subpopulation Level",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9861728",
+        "volume": "42",
         "year": "2022"
     },
     "zhang2016visual": {
@@ -1860,7 +2054,7 @@
         "series": "PacificVis",
         "title": "A visual analytics approach to high-dimensional logistic regression modeling and its application to an environmental health study",
         "type": "inproceedings",
-        "url": "https://ieeexplore.ieee.org/abstract/document/7465261?casa\\_token",
+        "url": "https://ieeexplore.ieee.org/abstract/document/7465261",
         "year": "2016"
     },
     "zhang2018manifold": {
@@ -1885,11 +2079,14 @@
         "doi": "10.1109/TVCG.2022.3209465",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "type:DL,data:Tabular,data:MD-Array,task:Present,task:Explore,task:Compare,task:Assess,task:Improve",
+        "number": "1",
+        "pages": "842--852",
         "publisher": "IEEE",
         "series": "VIS",
         "title": "SliceTeller: A Data Slice-Driven Approach for Machine Learning Model Validation",
         "type": "article",
         "url": "https://ieeexplore.ieee.org/abstract/document/9906903",
+        "volume": "29",
         "year": "2022"
     },
     "zhao2018iforest": {
@@ -1918,6 +2115,22 @@
         "title": "FeatureExplorer: Interactive feature selection and exploration of regression models for hyperspectral images",
         "type": "inproceedings",
         "url": "https://ieeexplore.ieee.org/abstract/document/8933619",
+        "year": "2019"
+    },
+    "zhao2019oui": {
+        "abstract": "Outliers, the data instances that do not conform with normal patterns in a dataset, are widely studied in various domains, such as cybersecurity, social analysis, and public health. By detecting and analyzing outliers, users can either gain insights into abnormal patterns or purge the data of errors. However, different domains usually have different considerations with respect to outliers. Understanding the defining characteristics of outliers is essential for users to select and filter appropriate outliers based on their domain requirements. Unfortunately, most existing work focuses on the efficiency and accuracy of outlier detection, neglecting the importance of outlier interpretation. To address these issues, we propose Oui, a visual analytic system that helps users understand, interpret, and select the outliers detected by various algorithms. We also present a usage scenario on a real dataset and a qualitative user study to demonstrate the effectiveness and usefulness of our system.",
+        "author": "Zhao, Xun and Cui, Weiwei and Wu, Yanhong and Zhang, Haidong and Qu, Huamin and Zhang, Dongmei",
+        "booktitle": "Computer Graphics Forum",
+        "doi": "https://doi.org/10.1111/cgf.13683",
+        "keywords": "type:General ML,data:Tabular,task:Present,task:Explore,task:Compare,task:Assess",
+        "number": "3",
+        "organization": "Wiley Online Library",
+        "pages": "213--224",
+        "series": "EuroVis",
+        "title": "Oui! Outlier Interpretation on Multi-dimensional Data via Visual Analytics",
+        "type": "inproceedings",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13683",
+        "volume": "38",
         "year": "2019"
     },
     "zhao2020protoviewer": {

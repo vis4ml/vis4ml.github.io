@@ -7,7 +7,7 @@ import pandas as pd
 
 basewidth = 512
 
-pd_paper = pd.read_csv('../../bib/paper_vis4ml_v2_copy.csv')
+pd_paper = pd.read_csv('../../bib/paper_vis4ml_v3 copy.csv')
 
 paper_list = []
 for index, row in pd_paper.iterrows():
