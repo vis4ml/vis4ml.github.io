@@ -63,7 +63,7 @@ var editable = false;
  * @type {{html: string, id: string}}
  */
 var paper = {
-    html: 'Check our paper (<b><a href="http://comingsoon.pdf" target="_blank">PDF</a></b>)',
+    html: 'Check our paper (<b><a href="https://arxiv.org/abs/2307.07712" target="_blank">PDF</a></b>)',
     // id: 'Beck2016Visual'
 };
 
